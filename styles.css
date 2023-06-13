@@ -1,0 +1,44 @@
+@import url('main.css');
+
+main {
+  grid-template-columns: auto 300px;
+}
+
+@media(max-width:900px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+#about {
+  background-color: snow;
+}
+
+.para-border {
+  border: solid gainsboro 1px;
+}
+
+aside > article{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.decimal-type {
+  list-style-type: decimal;
+}
+
+.post-tag-active {
+  padding: 5px;
+  border-radius: 15px;
+  border: solid blue 1px;
+  color: blue;
+}
+
+
+.post-tag-disable {
+  padding: 5px;
+  border-radius: 15px;
+  border: solid gray 1px;
+  color: gray;
+}
