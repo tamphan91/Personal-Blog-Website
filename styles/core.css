@@ -1,0 +1,34 @@
+body {
+  display: grid;
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: 0 auto;
+  grid-template-rows: 50px auto 70px;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+  height: 100vh;
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+
+.world-tag {
+  background-color: red;
+  color: white;
+}
+
+.design-tag {
+  background-color: green;
+  color: white;
+}
+
+.grey-color {
+  color: grey;
+}

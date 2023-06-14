@@ -1,0 +1,10 @@
+footer {
+  grid-area: footer;
+  text-align: center;
+  border: solid gainsboro 1px;
+  background-color: snow;
+  padding: 15px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}

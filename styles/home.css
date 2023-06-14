@@ -1,0 +1,30 @@
+@import url('main.css');
+
+main {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  border: solid gainsboro 5px;
+  text-align: center;
+  position: relative;
+  padding: 15px;
+}
+
+.card > span {
+  border-radius: 20px;
+  padding: 5px;
+  position: absolute;
+  left: 56px;
+  top: 33px;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  width: 80%;
+}
